@@ -7,6 +7,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "occupancy_chart",
   "room_number",
   "hotel_room_type",
   "capacity",
@@ -16,7 +17,8 @@
   {
    "fieldname": "room_number",
    "fieldtype": "Int",
-   "label": "Room Number"
+   "label": "Room Number",
+   "reqd": 1
   },
   {
    "fieldname": "hotel_room_type",
@@ -39,11 +41,22 @@
    "in_list_view": 1,
    "label": "Extra Bed Capacity",
    "reqd": 1
+  },
+  {
+   "fieldname": "occupancy_chart",
+   "fieldtype": "HTML",
+   "label": "Occupancy",
+   "options": "<div id=\"occupancy_chart-container\"></div>"
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2023-05-20 16:18:40.200634",
+ "links": [
+  {
+   "link_doctype": "Hotel Room Reservation",
+   "link_fieldname": "status"
+  }
+ ],
+ "modified": "2023-05-20 18:52:40.011456",
  "modified_by": "Administrator",
  "module": "Hotel",
  "name": "Hotel Room",
