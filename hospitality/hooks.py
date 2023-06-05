@@ -7,6 +7,9 @@ app_description = "Hotel and Restaurant Management"
 app_email = "zeltenlabs@gmail.com"
 app_license = "MIT"
 
+
+fixtures = ['Workspace']
+
 # Includes in <head>
 # ------------------
 
