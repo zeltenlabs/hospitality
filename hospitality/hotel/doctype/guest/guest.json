@@ -1,29 +1,30 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2023-05-20 17:33:25.798625",
+ "creation": "2023-07-15 20:12:38.255482",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "hote_room"
+  "guest"
  ],
  "fields": [
   {
-   "fieldname": "hote_room",
+   "fieldname": "guest",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Room",
-   "options": "Hotel Room"
+   "label": "Guest",
+   "options": "Guest Item",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-07-06 16:10:22.899966",
+ "modified": "2023-07-15 20:12:38.255482",
  "modified_by": "Administrator",
  "module": "Hotel",
- "name": "Hotel Room Reservation Detail",
+ "name": "Guest",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",

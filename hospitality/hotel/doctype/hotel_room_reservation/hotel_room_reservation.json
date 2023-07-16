@@ -16,7 +16,11 @@
   "status",
   "section_break_jgpl",
   "net_total",
-  "amended_from"
+  "amended_from",
+  "cwob",
+  "remarks",
+  "source",
+  "reference"
  ],
  "fields": [
   {
@@ -45,9 +49,7 @@
    "default": "0",
    "fieldname": "late_checkin",
    "fieldtype": "Check",
-   "in_list_view": 1,
-   "label": "Late Checkin",
-   "reqd": 1
+   "label": "Late Checkin"
   },
   {
    "fieldname": "column_break_djq0",
@@ -56,6 +58,7 @@
   {
    "fieldname": "status",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Status",
    "options": "Booked\nAdvance Paid\nInvoiced\nPaid\nCompleted\nCancelled",
    "reqd": 1
@@ -80,13 +83,34 @@
    "fieldname": "rooms",
    "fieldtype": "Table MultiSelect",
    "label": "Rooms",
-   "options": "Hotel Room Reservation Detail",
-   "reqd": 1
+   "options": "Hotel Room Reservation Detail"
+  },
+  {
+   "default": "0",
+   "fieldname": "cwob",
+   "fieldtype": "Check",
+   "label": "CWOB"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Select",
+   "label": "Source",
+   "options": "Direct\nMail\nWhatsApp\nWebsite\nCall"
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Small Text",
+   "label": "Reference"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-05-20 17:39:21.812620",
+ "modified": "2023-07-15 19:15:45.646634",
  "modified_by": "Administrator",
  "module": "Hotel",
  "name": "Hotel Room Reservation",
@@ -105,7 +129,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "customer"
 }

@@ -9,7 +9,8 @@
  "field_order": [
   "reservation",
   "purpose_of_visit",
-  "rooms_alotted"
+  "rooms_alotted",
+  "guest"
  ],
  "fields": [
   {
@@ -32,11 +33,17 @@
    "fieldtype": "Table MultiSelect",
    "label": "Rooms Alotted",
    "options": "Hotel Room Reservation Detail"
+  },
+  {
+   "fieldname": "guest",
+   "fieldtype": "Table MultiSelect",
+   "label": "Guest",
+   "options": "Guest"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-05 16:20:11.174721",
+ "modified": "2023-07-15 20:12:50.061134",
  "modified_by": "Administrator",
  "module": "Hotel",
  "name": "Checkin",
