@@ -2,6 +2,9 @@
 
 Hotel and Restaurant Management
 
-#### License
 
-MIT
+
+## Update hospitality in a running site
+```
+bench update --apps hospitality
+```
