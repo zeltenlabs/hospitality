@@ -12,15 +12,15 @@
   "from_date",
   "to_date",
   "late_checkin",
+  "cwob",
+  "source",
+  "reference",
   "column_break_djq0",
   "status",
-  "section_break_jgpl",
   "net_total",
-  "amended_from",
-  "cwob",
   "remarks",
-  "source",
-  "reference"
+  "section_break_jgpl",
+  "amended_from"
  ],
  "fields": [
   {
@@ -93,7 +93,7 @@
   },
   {
    "fieldname": "remarks",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "label": "Remarks"
   },
   {
@@ -104,13 +104,13 @@
   },
   {
    "fieldname": "reference",
-   "fieldtype": "Small Text",
+   "fieldtype": "Data",
    "label": "Reference"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-07-15 19:15:45.646634",
+ "modified": "2023-07-16 19:30:47.208726",
  "modified_by": "Administrator",
  "module": "Hotel",
  "name": "Hotel Room Reservation",

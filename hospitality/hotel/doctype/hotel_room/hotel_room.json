@@ -40,8 +40,7 @@
    "fieldname": "extra_bed_capacity",
    "fieldtype": "Int",
    "in_list_view": 1,
-   "label": "Extra Bed Capacity",
-   "reqd": 1
+   "label": "Extra Bed Capacity"
   },
   {
    "fieldname": "occupancy_chart",
@@ -64,7 +63,7 @@
    "link_fieldname": "status"
   }
  ],
- "modified": "2023-07-15 19:50:08.258605",
+ "modified": "2023-07-16 19:11:25.347938",
  "modified_by": "Administrator",
  "module": "Hotel",
  "name": "Hotel Room",
@@ -86,5 +85,6 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "room_number"
+ "title_field": "room_number",
+ "track_changes": 1
 }

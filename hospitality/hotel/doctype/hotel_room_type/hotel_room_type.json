@@ -9,26 +9,10 @@
  "field_order": [
   "hotel_type_name",
   "price",
-  "capacity",
-  "extra_bed_capacity",
   "section_break_ba6c",
   "amenities"
  ],
  "fields": [
-  {
-   "fieldname": "capacity",
-   "fieldtype": "Int",
-   "in_list_view": 1,
-   "label": "Capacity",
-   "reqd": 1
-  },
-  {
-   "fieldname": "extra_bed_capacity",
-   "fieldtype": "Int",
-   "in_list_view": 1,
-   "label": "Extra Bed Capacity",
-   "reqd": 1
-  },
   {
    "fieldname": "section_break_ba6c",
    "fieldtype": "Section Break"
@@ -37,25 +21,26 @@
    "fieldname": "amenities",
    "fieldtype": "Table",
    "label": "Amenities",
-   "options": "Hotel Room Amenity",
-   "reqd": 1
+   "options": "Hotel Room Amenity"
   },
   {
    "fieldname": "hotel_type_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Name",
    "reqd": 1
   },
   {
    "fieldname": "price",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Price",
    "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-05-20 17:56:43.400782",
+ "modified": "2023-07-16 19:16:49.475540",
  "modified_by": "Administrator",
  "module": "Hotel",
  "name": "Hotel Room Type",
@@ -74,8 +59,10 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "hotel_type_name"
+ "title_field": "hotel_type_name",
+ "track_changes": 1
 }
