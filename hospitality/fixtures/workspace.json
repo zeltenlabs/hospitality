@@ -13207,7 +13207,7 @@
  },
  {
   "charts": [],
-  "content": "[{\"id\":\"_SUtDymMy1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">PMS</span>\",\"col\":12}},{\"id\":\"uM86avIah4\",\"type\":\"card\",\"data\":{\"card_name\":\"Reservation\",\"col\":4}},{\"id\":\"2Hlgj90Ini\",\"type\":\"card\",\"data\":{\"card_name\":\"Checkin\",\"col\":4}},{\"id\":\"Z2n0FEa7Fj\",\"type\":\"card\",\"data\":{\"card_name\":\"Checkout\",\"col\":4}},{\"id\":\"oozqB6dkTL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Reservation\",\"col\":4}},{\"id\":\"IODinuynFI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Checkin\",\"col\":4}},{\"id\":\"AS7DjAV1rH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Checkout\",\"col\":3}},{\"id\":\"OoIeiaA6XP\",\"type\":\"card\",\"data\":{\"card_name\":\"Room\",\"col\":9}}]",
+  "content": "[{\"id\":\"_SUtDymMy1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">PMS</span>\",\"col\":12}},{\"id\":\"uM86avIah4\",\"type\":\"card\",\"data\":{\"card_name\":\"Reservation\",\"col\":4}},{\"id\":\"2Hlgj90Ini\",\"type\":\"card\",\"data\":{\"card_name\":\"Checkin\",\"col\":4}},{\"id\":\"Z2n0FEa7Fj\",\"type\":\"card\",\"data\":{\"card_name\":\"Checkout\",\"col\":4}},{\"id\":\"oozqB6dkTL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Reservation\",\"col\":4}},{\"id\":\"IODinuynFI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Checkin\",\"col\":4}},{\"id\":\"AS7DjAV1rH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Checkout\",\"col\":3}},{\"id\":\"OoIeiaA6XP\",\"type\":\"card\",\"data\":{\"card_name\":\"Room\",\"col\":10}},{\"id\":\"WiGx9R7B0-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -13362,7 +13362,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-07-16 19:48:39.786217",
+  "modified": "2023-07-18 00:48:07.655750",
   "module": null,
   "name": "PMS",
   "number_cards": [],
@@ -13402,6 +13402,21 @@
     "stats_filter": null,
     "type": "DocType",
     "url": null
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "label": "Dashboard",
+    "link_to": null,
+    "parent": "PMS",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "URL",
+    "url": "http://pos.local:8013/reactpos"
    },
    {
     "color": "Grey",
