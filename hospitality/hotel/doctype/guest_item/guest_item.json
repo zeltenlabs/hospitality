@@ -29,12 +29,12 @@
    "allow_in_quick_entry": 1,
    "fieldname": "id",
    "fieldtype": "Image",
-   "label": "ID"
+   "label": "ID Proof"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-07-15 20:16:57.584397",
+ "modified": "2023-07-20 19:21:38.937224",
  "modified_by": "Administrator",
  "module": "Hotel",
  "name": "Guest Item",
