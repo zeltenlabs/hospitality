@@ -8,3 +8,7 @@ Hotel and Restaurant Management
 ```
 bench update --apps hospitality
 ```
+## Update types in pos using frappe-types
+```
+bench generate-types-for-module --app hospitality --module hotel --generate_child_tables
+```
