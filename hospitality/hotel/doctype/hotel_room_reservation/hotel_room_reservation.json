@@ -33,14 +33,14 @@
   },
   {
    "fieldname": "from_date",
-   "fieldtype": "Date",
+   "fieldtype": "Datetime",
    "in_list_view": 1,
    "label": "From Date",
    "reqd": 1
   },
   {
    "fieldname": "to_date",
-   "fieldtype": "Date",
+   "fieldtype": "Datetime",
    "in_list_view": 1,
    "label": "To Date",
    "reqd": 1
@@ -83,7 +83,8 @@
    "fieldname": "rooms",
    "fieldtype": "Table MultiSelect",
    "label": "Rooms",
-   "options": "Hotel Room Reservation Detail"
+   "options": "Hotel Room Reservation Detail",
+   "reqd": 1
   },
   {
    "default": "0",
@@ -110,7 +111,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-07-24 15:19:01.958151",
+ "modified": "2023-08-24 20:58:59.791417",
  "modified_by": "Administrator",
  "module": "Hotel",
  "name": "Hotel Room Reservation",
