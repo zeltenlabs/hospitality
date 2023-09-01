@@ -30,13 +30,12 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Invoice",
-   "options": "Sales Invoice",
-   "reqd": 1
+   "options": "Sales Invoice"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-05 16:32:26.383341",
+ "modified": "2023-09-01 15:38:16.971986",
  "modified_by": "Administrator",
  "module": "Hotel",
  "name": "Checkout",

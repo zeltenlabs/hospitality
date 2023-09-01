@@ -8,6 +8,7 @@
  "engine": "InnoDB",
  "field_order": [
   "enabled",
+  "title",
   "currency",
   "from_date",
   "to_date",
@@ -55,11 +56,17 @@
    "label": "Items",
    "options": "Hotel Room Pricing Item",
    "reqd": 1
+  },
+  {
+   "default": "from_date",
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-07-15 19:49:17.115355",
+ "modified": "2023-09-01 17:12:58.069760",
  "modified_by": "Administrator",
  "module": "Hotel",
  "name": "Hotel Room Pricing",
@@ -78,7 +85,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "title"
 }
