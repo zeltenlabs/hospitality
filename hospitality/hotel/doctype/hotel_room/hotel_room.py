@@ -19,7 +19,7 @@ def get_occupancy_data(room_name):
     # Filter out reservations that do not include the room.
     reservations_for_room = []
     for reservation in reservations:
-        rooms = frappe.get_all('Hotel Room Reservation Detail', filters={'parent': reservation.name, 'hote_room': room_name}, fields=['hote_room'])
+        rooms = frappe.get_all('Hotel Room Reservation Detail', filters={'parent': reservation.name, 'hotel_room': room_name}, fields=['hotel_room'])
         if rooms:
             reservations_for_room.append(reservation)
 
